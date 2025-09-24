@@ -1,0 +1,140 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+  background: #fff;
+  border-bottom: 1px solid #e5e5e5;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.04);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+
+.navbar-left h2 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #2c3e50;
+  margin: 0;
+  cursor: pointer;
+  transition: color 0.2s ease, transform 0.2s ease;
+}
+
+.navbar-left h2:hover {
+  color: #7b3aed; 
+  transform: translateY(-1px);
+}
+
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-right ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-right li {
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  color: #333;
+  transition: color 0.2s ease;
+}
+
+.navbar-right li:hover {
+  color: #7b3aed;
+}
+
+
+.new-ticket-btn {
+  margin-left: 20px;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 6px;
+  background: #7b3aed;
+  color: #fff;
+  font-weight: 600;
+  font-size: 14px;
+  cursor: pointer;
+  box-shadow: 0 2px 5px rgba(123, 58, 237, 0.25);
+  transition: background 0.2s ease, transform 0.15s ease, box-shadow 0.2s ease;
+}
+
+.new-ticket-btn:hover {
+  background: #6931c7; 
+  transform: translateY(-2px);
+  box-shadow: 0 4px 10px rgba(123, 58, 237, 0.35);
+}
+
+.new-ticket-btn:active {
+  transform: translateY(0px);
+  box-shadow: 0 2px 5px rgba(123, 58, 237, 0.2);
+}
+
+
+.hamburger-menu {
+  display: none; 
+  cursor: pointer;
+  padding: 10px;
+}
+
+.hamburger-menu .bar {
+  width: 25px;
+  height: 3px;
+  background-color: #333;
+  margin: 5px 0;
+  transition: 0.4s;
+  border-radius: 2px;
+}
+
+
+@media (max-width: 768px) {
+  .navbar {
+    flex-wrap: wrap;
+  }
+
+  .navbar-left {
+    flex-grow: 1;
+  }
+
+  .hamburger-menu {
+    display: block; 
+  }
+
+  
+  .navbar-right {
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .navbar-right.open {
+    display: flex;
+  }
+
+  .navbar-right ul {
+    flex-direction: column;
+    gap: 12px;
+    width: 100%;
+  }
+
+  .navbar-right li {
+    width: 100%;
+    padding: 5px 0;
+  }
+
+  .new-ticket-btn {
+    margin-top: 12px;
+    width: 100%;
+    text-align: center;
+  }
+}
