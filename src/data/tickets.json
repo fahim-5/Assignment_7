@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "title": "Login Issues - Can't Access Account",
+    "description": "Customer is unable to log in to their account despite multiple attempts.",
+    "customer": "John Smith",
+    "priority": "HIGH",
+    "status": "Open",
+    "createdAt": "2025-01-15"
+  },
+  {
+    "id": 2,
+    "title": "Payment Failed - Card Declined",
+    "description": "Customer attempted payment with Visa ending 1234 but it was declined.",
+    "customer": "Sarah Johnson",
+    "priority": "HIGH",
+    "status": "Open",
+    "createdAt": "2025-01-17"
+  },
+  {
+    "id": 3,
+    "title": "Unable to Download Invoice",
+    "description": "Customer cannot download January invoice from billing section.",
+    "customer": "Michael Brown",
+    "priority": "MEDIUM",
+    "status": "In Progress",
+    "createdAt": "2025-01-20"
+  },
+  {
+    "id": 4,
+    "title": "App Crash on Launch",
+    "description": "The app crashes immediately upon opening on Android 13.",
+    "customer": "David Wilson",
+    "priority": "HIGH",
+    "status": "Open",
+    "createdAt": "2025-01-22"
+  },
+  {
+    "id": 5,
+    "title": "Incorrect Billing Address",
+    "description": "Customer's billing address is not updating correctly.",
+    "customer": "Emily Davis",
+    "priority": "LOW",
+    "status": "Open",
+    "createdAt": "2025-01-25"
+  },
+  {
+    "id": 6,
+    "title": "Refund Not Processed",
+    "description": "Refund requested two weeks ago has not been received.",
+    "customer": "Sophia Taylor",
+    "priority": "MEDIUM",
+    "status": "In Progress",
+    "createdAt": "2025-01-27"
+  },
+  {
+    "id": 7,
+    "title": "Two-Factor Authentication Issue",
+    "description": "Customer not receiving OTP codes on registered phone number.",
+    "customer": "James Anderson",
+    "priority": "HIGH",
+    "status": "Open",
+    "createdAt": "2025-01-28"
+  },
+  {
+    "id": 8,
+    "title": "Unable to Update Profile Picture",
+    "description": "Customer tried updating profile picture but upload failed.",
+    "customer": "Olivia Martinez",
+    "priority": "LOW",
+    "status": "Open",
+    "createdAt": "2025-01-30"
+  },
+  {
+    "id": 9,
+    "title": "Subscription Auto-Renewal",
+    "description": "Customer was charged for auto-renewal but wants a refund.",
+    "customer": "Liam Thomas",
+    "priority": "MEDIUM",
+    "status": "Open",
+    "createdAt": "2025-02-01"
+  },
+  {
+    "id": 10,
+    "title": "Missing Order Confirmation Email",
+    "description": "Customer did not receive order confirmation email after payment.",
+    "customer": "Isabella Garcia",
+    "priority": "MEDIUM",
+    "status": "Open",
+    "createdAt": "2025-02-03"
+  }
+]
