@@ -88,5 +88,95 @@
     "priority": "MEDIUM",
     "status": "Open",
     "createdAt": "2025-02-03"
+  },
+  {
+    "id": 11,
+    "title": "Broken Link on Homepage",
+    "description": "The 'Contact Us' link in the main navigation leads to a '404 Not Found' page. This prevents customers from easily getting support.",
+    "customer": "Jamal",
+    "priority": "LOW",
+    "status": "Open",
+    "createdAt": "2025-02-05"
+  },
+  {
+    "id": 12,
+    "title": "Slow Performance on Checkout",
+    "description": "Website is extremely slow when navigating the checkout process. Takes over 30 seconds to load each step, leading to cart abandonment.",
+    "customer": "Taslima",
+    "priority": "HIGH",
+    "status": "Open",
+    "createdAt": "2025-02-06"
+  },
+  {
+    "id": 13,
+    "title": "Incorrect Product Description",
+    "description": "Product ID 456's description states it includes a charger, but the customer only received the main device. The product page needs correction.",
+    "customer": "Kamal",
+    "priority": "MEDIUM",
+    "status": "Open",
+    "createdAt": "2025-02-08"
+  },
+  {
+    "id": 14,
+    "title": "Issue with API Integration",
+    "description": "Customer's third-party application is receiving 'Authentication Failed' errors when calling the API, despite using the correct and valid API key.",
+    "customer": "Zia",
+    "priority": "HIGH",
+    "status": "Open",
+    "createdAt": "2025-02-10"
+  },
+  {
+    "id": 15,
+    "title": "Can't Change Language Setting",
+    "description": "User is unable to switch the UI language from English to Bengali. Setting appears to save, but the interface remains in English.",
+    "customer": "Lamiya",
+    "priority": "LOW",
+    "status": "Open",
+    "createdAt": "2025-02-12"
+  },
+  {
+    "id": 16,
+    "title": "Miscalculated Sales Tax",
+    "description": "The sales tax applied to the order is 5%, but in the customer's region, the local tax rate is 7.5%. Customer was undercharged and may face issues.",
+    "customer": "Nizam",
+    "priority": "MEDIUM",
+    "status": "Open",
+    "createdAt": "2025-02-14"
+  },
+  {
+    "id": 17,
+    "title": "Email Notifications Not Working",
+    "description": "Customer has subscribed to all newsletters and update emails, but hasn't received any correspondence for the last week. Checked spam folder; issue persists.",
+    "customer": "Priya",
+    "priority": "MEDIUM",
+    "status": "Open",
+    "createdAt": "2025-02-16"
+  },
+  {
+    "id": 18,
+    "title": "Data Loss After Update",
+    "description": "Following the latest application update (v3.1), all of the customer's saved settings and preferences have been reset or deleted.",
+    "customer": "Ashraf",
+    "priority": "HIGH",
+    "status": "Open",
+    "createdAt": "2025-02-18"
+  },
+  {
+    "id": 19,
+    "title": "Accessibility Issue: Keyboard Navigation",
+    "description": "Users relying on keyboard navigation (Tab key) are unable to access the main 'Search' bar, which is a major accessibility blocker.",
+    "customer": "Sabina",
+    "priority": "MEDIUM",
+    "status": "Open",
+    "createdAt": "2025-02-20"
+  },
+  {
+    "id": 20,
+    "title": "Coupon Code Not Applying",
+    "description": "Customer is trying to use a valid 'SPRING20' coupon code at checkout, but the system shows an 'Invalid Code' error, preventing the discount.",
+    "customer": "Reza",
+    "priority": "LOW",
+    "status": "Open",
+    "createdAt": "2025-02-22"
   }
 ]

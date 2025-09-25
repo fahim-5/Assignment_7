@@ -2,15 +2,12 @@ import React, { useState } from "react";
 import "./../assets/css/Navbar.css";
 
 const Navbar = () => {
-  
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
-  
   const handleMenuToggle = () => {
     setIsMenuOpen(!isMenuOpen);
   };
 
-  
   const handleNavLinkClick = () => {
     setIsMenuOpen(false);
   };
@@ -21,13 +18,15 @@ const Navbar = () => {
         <h2>CS — Ticket System</h2>
       </div>
   
-      <div className="hamburger-menu" onClick={handleMenuToggle}>
+      <div 
+        className={`hamburger-menu ${isMenuOpen ? "open" : ""}`} 
+        onClick={handleMenuToggle}
+      >
         <div className="bar"></div>
         <div className="bar"></div>
         <div className="bar"></div>
       </div>
 
-      
       <div className={`navbar-right ${isMenuOpen ? "open" : ""}`}>
         <ul>
           <li onClick={handleNavLinkClick}>Home</li>
