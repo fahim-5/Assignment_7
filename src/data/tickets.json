@@ -2,8 +2,8 @@
   {
     "id": 1,
     "title": "Login Issues - Can't Access Account",
-    "description": "Customer is unable to log in to their account despite multiple attempts.",
-    "customer": "John Smith",
+    "description": "Customer cannot log in despite several attempts. Password reset was tried but failed. They urgently need account access as it blocks usage of important services.",
+    "customer": "Rakib",
     "priority": "HIGH",
     "status": "Open",
     "createdAt": "2025-01-15"
@@ -11,8 +11,8 @@
   {
     "id": 2,
     "title": "Payment Failed - Card Declined",
-    "description": "Customer attempted payment with Visa ending 1234 but it was declined.",
-    "customer": "Sarah Johnson",
+    "description": "Customer tried making a payment with Visa ending 1234, but it was declined repeatedly. Card is valid with funds, yet the issue prevents completing their purchase.",
+    "customer": "Nusrat",
     "priority": "HIGH",
     "status": "Open",
     "createdAt": "2025-01-17"
@@ -20,17 +20,17 @@
   {
     "id": 3,
     "title": "Unable to Download Invoice",
-    "description": "Customer cannot download January invoice from billing section.",
-    "customer": "Michael Brown",
+    "description": "Customer cannot download their January invoice from the billing section. File doesn’t generate or appears blank. This prevents them from keeping proper financial documentation.",
+    "customer": "Tanvir",
     "priority": "MEDIUM",
-    "status": "In Progress",
+    "status": "Open",
     "createdAt": "2025-01-20"
   },
   {
     "id": 4,
     "title": "App Crash on Launch",
-    "description": "The app crashes immediately upon opening on Android 13.",
-    "customer": "David Wilson",
+    "description": "The app crashes instantly on Android 13 devices. Customer cannot proceed beyond the splash screen, making the app completely unusable and blocking access to features.",
+    "customer": "Sajid",
     "priority": "HIGH",
     "status": "Open",
     "createdAt": "2025-01-22"
@@ -38,8 +38,8 @@
   {
     "id": 5,
     "title": "Incorrect Billing Address",
-    "description": "Customer's billing address is not updating correctly.",
-    "customer": "Emily Davis",
+    "description": "Customer is unable to update their billing address. Each attempt reverts to the old details, which may cause incorrect invoices or future payment errors.",
+    "customer": "Mitu",
     "priority": "LOW",
     "status": "Open",
     "createdAt": "2025-01-25"
@@ -47,17 +47,17 @@
   {
     "id": 6,
     "title": "Refund Not Processed",
-    "description": "Refund requested two weeks ago has not been received.",
-    "customer": "Sophia Taylor",
+    "description": "Customer requested a refund over two weeks ago but has not received it. They checked their bank, yet no refund appears. Delay is causing frustration.",
+    "customer": "Farzana",
     "priority": "MEDIUM",
-    "status": "In Progress",
+    "status": "Open",
     "createdAt": "2025-01-27"
   },
   {
     "id": 7,
     "title": "Two-Factor Authentication Issue",
-    "description": "Customer not receiving OTP codes on registered phone number.",
-    "customer": "James Anderson",
+    "description": "Customer is not receiving OTP codes on their registered phone during two-factor login. Number is correct, but messages fail, blocking secure account access completely.",
+    "customer": "Arif",
     "priority": "HIGH",
     "status": "Open",
     "createdAt": "2025-01-28"
@@ -65,8 +65,8 @@
   {
     "id": 8,
     "title": "Unable to Update Profile Picture",
-    "description": "Customer tried updating profile picture but upload failed.",
-    "customer": "Olivia Martinez",
+    "description": "Customer tried uploading a profile picture, but it fails every time. Different formats and devices tested, but issue continues, preventing account personalization updates.",
+    "customer": "Rupa",
     "priority": "LOW",
     "status": "Open",
     "createdAt": "2025-01-30"
@@ -74,8 +74,8 @@
   {
     "id": 9,
     "title": "Subscription Auto-Renewal",
-    "description": "Customer was charged for auto-renewal but wants a refund.",
-    "customer": "Liam Thomas",
+    "description": "Customer was charged for an unwanted subscription renewal. They planned to cancel earlier but missed the date. Now they request a refund and disable auto-renewal.",
+    "customer": "Hasan",
     "priority": "MEDIUM",
     "status": "Open",
     "createdAt": "2025-02-01"
@@ -83,8 +83,8 @@
   {
     "id": 10,
     "title": "Missing Order Confirmation Email",
-    "description": "Customer did not receive order confirmation email after payment.",
-    "customer": "Isabella Garcia",
+    "description": "Customer didn’t receive an order confirmation email after payment. They checked inbox and spam, but nothing arrived. This leaves them unsure if order was processed.",
+    "customer": "Shorna",
     "priority": "MEDIUM",
     "status": "Open",
     "createdAt": "2025-02-03"

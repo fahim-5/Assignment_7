@@ -7,8 +7,9 @@ const Footer = () => {
     <footer className="footer">
       <div className="footer-top">
         <div className="footer-left">
-          <h3>CS — Ticket System</h3>
-          <p>
+
+          <p id="footer-description">
+            <h3>CS — Ticket System</h3>
             Welcome to the Customer Support Zone. This React-based application
             is designed to streamline ticket management by allowing you to
             display customer issues, track their progress, and efficiently mark
@@ -18,25 +19,25 @@ const Footer = () => {
         </div>
 
         <div className="footer-columns">
-          <div>
+          <div className="footer-column">
             <h4>Company</h4>
             <p>About Us</p>
             <p>Our Mission</p>
             <p>Contact Sales</p>
           </div>
-          <div>
+          <div className="footer-column">
             <h4>Services</h4>
             <p>Products & Services</p>
             <p>Customer Stories</p>
             <p>Download Apps</p>
           </div>
-          <div>
+          <div className="footer-column">
             <h4>Information</h4>
             <p>Privacy Policy</p>
             <p>Terms & Conditions</p>
             <p>Join Us</p>
           </div>
-          <div>
+          <div className="footer-column">
             <h4>Social Links</h4>
             <p>
               <FaTwitter /> @CS — Ticket System
